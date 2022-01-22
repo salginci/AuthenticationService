@@ -1,4 +1,4 @@
-# dotnet-6-jwt-authentication-api with mysql framework
+# dotnet-6-jwt-authentication-api with mysql DB & Entity Framework
 
 .NET 6.0 - JWT Authentication API
 
