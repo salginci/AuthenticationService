@@ -5,3 +5,5 @@
  MYSQL DB Connection 
 
  EntityFramework with Mysql 
+ 
+ Dockerising
