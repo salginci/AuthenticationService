@@ -9,7 +9,7 @@ using WebApi.Services;
 [Route("[controller]")]
 public class UsersController : ControllerBase
 {
-    
+
     private IUserService _userService;
 
     public UsersController(IUserService userService)
@@ -23,7 +23,7 @@ public class UsersController : ControllerBase
         var response = _userService.Authenticate(model);
 
         if (response == null)
-            return BadRequest(new { message = "Username or password is incorrect" });
+            return BadRequest(new { message = "Username or password iss incorrect" });
 
         return Ok(response);
     }
