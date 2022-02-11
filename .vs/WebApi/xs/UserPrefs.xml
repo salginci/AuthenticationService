@@ -8,16 +8,8 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WebApi" expanded="True" selected="True">
-            <Node name="WebApi" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="DbContexts" expanded="True" />
-              <Node name="Entities" expanded="True" />
-              <Node name="Helpers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Services" expanded="True" />
-            </Node>
+          <Node name="WebApi" expanded="True">
+            <Node name="WebApi" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
