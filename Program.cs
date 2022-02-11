@@ -26,6 +26,7 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("Default");
 builder.Services.AddDbContext<MyDBContext>(options =>
 {
+    //Test kerstel
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
 
